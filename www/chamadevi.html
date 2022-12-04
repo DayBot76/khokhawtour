@@ -1,0 +1,111 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เส้นทางตามรอยพระนางจามเทวี</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Khokhaw Tour</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="./index.html">หน้าแรก
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link " href="./map.html">Map</a>
+                    </li> -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="./Packages.html">Packages</a>
+                    </li> -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link active" href="./tourroute.html">TourRoute</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li> -->
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">เส้นทางท่องเที่ยวอื่นๆ</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="./kruba.html">เส้นทางตามรอยครูบาศรีวิชัย</a>
+                            <a class="dropdown-item" href="./tourroute.html">เส้นทางรถรางนำเที่ยว</a>
+                            <a class="dropdown-item" href="./chamadevi.html">เส้นทางตามรอยพระนางจามเทวี</a>
+                            <a class="dropdown-item" href="./phrarod.html">เส้นทางตามรอยพระรอด</a>
+                            <!-- <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a> -->
+                        </div>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex">
+                    <input class="form-control me-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+
+    <div class="col-container">
+        <div class="btn-group-vertical"
+            style="width:300px; max-width: 300px; margin-top: 10px; margin-bottom: 10px; border-radius: 20px; margin-left: 10px;">
+            <button type="button" class="btn btn-primary" onclick="location.href='./Packages.html'">ย้อนกลับ</button>
+        </div>
+        <div class="col-sm-12">
+            <div class="card mt-15">
+                <div class="card-header" ">
+                    <h1>เส้นทางตามรอยพระนางจามเทวี</h1>
+                </div>
+                <div class=" card-body bg-map">
+                    <div id="map4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="col-sm-12" style="margin-top: 15px;">
+        <div class="card">
+            <div class="card-header">
+                <h2>ข้อมูลเส้นทาง</h2>
+            </div>
+            <div class="card-body">
+                <!-- <h3 id="t_title"></h3>
+                <span id="t_content"></span>
+                <br>
+                <img id="t_img" style="width: 500px; margin-top: 10px; "> -->
+    <!-- </div>
+        </div>
+    </div>  -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./chamadevi.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+</body>
+
+
+
+</html>

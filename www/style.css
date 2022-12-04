@@ -1,0 +1,57 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+/* .top-header {
+    background-color: aquamarine;
+}
+
+.menu-item {
+    color: blue;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+} */
+
+/* 
+.brand {
+    font-size: 24px;
+    font-weight: 600px;
+    image-rendering: auto;
+
+} */
+
+#map1 {
+    height: 480px;
+    border-radius: 20px;
+}
+
+#map2 {
+    height: 550px;
+    border-radius: 20px;
+}
+
+#map3 {
+    height: 550px;
+    border-radius: 20px;
+}
+
+#map4 {
+    height: 550px;
+    border-radius: 20px;
+}
+
+#map5 {
+    height: 550px;
+    border-radius: 20px;
+}
+
+#map6 {
+    height: 550px;
+    border-radius: 20px;
+}
