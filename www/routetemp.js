@@ -3,7 +3,7 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const id = urlParams.get('id')
 // console.log(id);
-var url = "https://b702-202-28-250-113.ap.ngrok.io"
+var url = "https://engrids.soc.cmu.ac.th/p4000"
 
 axios.get(url + '/api/getbyroute/' + id).then(r => {
 

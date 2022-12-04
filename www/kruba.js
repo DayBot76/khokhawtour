@@ -78,7 +78,7 @@ function fuindRoute(a, b) {
     }).addTo(map3)
 }
 
-var url = "https://b702-202-28-250-113.ap.ngrok.io"
+var url = "https://engrids.soc.cmu.ac.th/p4000"
 // var api3 = "https://9398-202-28-250-94.ap.ngrok.io/api/getdata3";
 
 axios.get(url + "/api/getdata3").then(data => {

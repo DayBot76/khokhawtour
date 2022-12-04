@@ -122,7 +122,7 @@ function fuindRoute(a, b) {
         ]
     }).addTo(map2)
 }
-var url = "https://b702-202-28-250-113.ap.ngrok.io"
+var url = "https://engrids.soc.cmu.ac.th/p4000"
 var api = "https://9398-202-28-250-94.ap.ngrok.io/api/getdata";
 var api2 = "https://9398-202-28-250-94.ap.ngrok.io/api/getdata2";
 

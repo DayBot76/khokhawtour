@@ -78,7 +78,7 @@ function fuindRoute(a, b) {
 }
 
 
-var api4 = "https://b702-202-28-250-113.ap.ngrok.io/api/getdata4";
+var api4 = "https://engrids.soc.cmu.ac.th/p4000/api/getdata4";
 
 axios.get(api4).then(data => {
     console.log(data.data.data)
