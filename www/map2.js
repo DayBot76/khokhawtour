@@ -22,7 +22,7 @@ var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest
     attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
 });
 
-var url = "https://20c2-180-183-229-116.ap.ngrok.io"
+var url = "https://engrids.soc.cmu.ac.th/p4000"
 
 // layer control
 var baseLayer = {
